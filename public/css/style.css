@@ -163,11 +163,12 @@ body {
     /*text-align: center; */
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
-    color: #000;
-    background: #FFF;
-    /* background-image: url("https://cdn.pixabay.com/photo/2013/10/23/09/04/beer-199650_960_720.jpg"); */
-    /* background-repeat: no-repeat; */
+    color: #FFF;
+    background: #000;
+    background-image: url("https://cdn.pixabay.com/photo/2013/10/23/09/04/beer-199650_960_720.jpg");
+    background-repeat: no-repeat;
     margin: 0;
+    
 }
 
 h1 {
@@ -177,6 +178,14 @@ h1 {
 .leader-text {
     font-size: calc(1.275rem + .3vw);
     font-weight: 400;
+    color: #495057;
+}
+
+.leader-text:visited {
+    color: #495057;
+}
+
+.leader-text:link {
     color: #495057;
 }
 
